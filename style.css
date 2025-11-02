@@ -609,6 +609,39 @@ body, html {
   padding: 0 !important;
 }
 
+/* === CLEAN FIX: Keep hero perfect, fix white space inside shop cards === */
+
+/* Restore original hero banner spacing */
+.hero-banner {
+  height: 300px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Keep hero text centered correctly */
+.hero-text {
+  padding-top: 100px !important;
+  margin-bottom: 0 !important;
+}
+
+/* Ensure content starts nicely below hero */
+.content {
+  margin-top: 0 !important;
+  padding-top: 30px !important;
+}
+
+/* Remove excess blank space INSIDE shop cards (above text) */
+.shop-card-content {
+  padding-top: 10px !important;
+}
+
+/* Optional: make the cards slightly tighter overall */
+.shop-card {
+  margin: 25px auto !important;
+}
+
+
+
 
 
 
