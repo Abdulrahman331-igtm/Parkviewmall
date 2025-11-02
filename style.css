@@ -562,6 +562,19 @@ body {
   padding: 0 !important;
 }
 
+/* Remove large gap between hero and first shop card */
+.content h2 {
+  margin-top: 0 !important;
+  padding-top: 10px !important;
+}
+
+.content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+
 
 
 
