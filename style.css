@@ -350,3 +350,101 @@ footer {
     transform: translateY(0);
   }
 }
+/* ===== Shop Cards Styling ===== */
+.shop-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 40px auto;
+  max-width: 900px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.shop-card-bg {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  filter: brightness(0.6);
+}
+
+.shop-card-content {
+  padding: 25px 30px;
+}
+
+.shop-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.shop-logo {
+  height: 35px;
+  margin-right: 10px;
+}
+
+.shop-card h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.shop-card p,
+.shop-card ul,
+.shop-card li {
+  color: #444;
+  line-height: 1.6;
+}
+
+.shop-card ul {
+  list-style: disc;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.shop-meta {
+  font-size: 0.95rem;
+  margin-top: 12px;
+  color: #555;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 50px 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.coming-soon h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .shop-card {
+    margin: 25px 10px;
+  }
+
+  .shop-card-bg {
+    height: 150px;
+  }
+
+  .shop-card-content {
+    padding: 20px;
+  }
+
+  .shop-header h3 {
+    font-size: 1.2rem;
+  }
+}
+
+
