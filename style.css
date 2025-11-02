@@ -458,6 +458,11 @@ footer {
   margin-top: 0 !important; /* remove top gap from the whole section */
   padding-top: 0 !important;
 }
+section + section {
+  margin-top: 40px !important; /* tighter spacing between sections */
+}
+
+
 
 
 
