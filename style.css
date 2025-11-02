@@ -639,6 +639,17 @@ body, html {
 .shop-card {
   margin: 25px auto !important;
 }
+/* FIX: remove white gap between shop image and text */
+.shop-card-content {
+  margin-top: 0 !important;
+  padding-top: 10px !important; /* adjust slightly if you want tighter spacing */
+}
+
+.shop-card-bg {
+  margin-bottom: 0 !important;
+  display: block;
+}
+
 
 
 
