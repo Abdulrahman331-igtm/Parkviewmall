@@ -581,6 +581,35 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+/* FINAL FIX — Removes the blank space between hero and Explore Our Stores */
+.hero-banner {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto !important;
+}
+
+.hero-text {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.content {
+  margin-top: -40px !important; /* pull section upward */
+  padding-top: 0 !important;
+}
+
+.content h2 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* just to be 100% sure */
+body, html {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
 
 
 
