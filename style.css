@@ -517,3 +517,23 @@ footer {
   color: #333;
 }
 
+/* === RESTORE ORIGINAL HERO LOOK === */
+.hero-banner {
+  height: 300px !important; /* back to the original size */
+  background-size: cover !important;
+  background-position: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.hero-text {
+  padding-top: 100px !important; /* restore original vertical centering */
+}
+
+.content {
+  margin-top: 0 !important;
+  padding-top: 40px !important; /* restore clean breathing space */
+}
+
+
+
