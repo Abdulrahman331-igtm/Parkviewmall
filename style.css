@@ -608,6 +608,23 @@ body, html {
   margin: 0 !important;
   padding: 0 !important;
 }
+/* === FINAL HERO SPACE FIX === */
+.hero-text {
+  padding-top: 40px !important; /* reduce from 100px */
+}
+
+.hero-banner {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  height: 260px !important; /* slightly smaller banner */
+}
+
+.content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
 
 
 
