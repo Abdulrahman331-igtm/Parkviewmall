@@ -127,7 +127,7 @@ footer {
 
 /* Hero Banner */
 .hero-banner {
-  background-image: url('images/malls_front.png');
+  background-image: url('images/mall_fronts.png.png');
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -349,3 +349,4 @@ footer {
     transform: translateY(0);
   }
 }
+
