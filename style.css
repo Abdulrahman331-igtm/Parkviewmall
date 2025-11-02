@@ -446,24 +446,3 @@ footer {
     font-size: 1.2rem;
   }
 }
-.store-card {
-  margin-top: 20px; /* reduce from whatever it was (maybe 80px or so) */
-  padding: 20px;
-  border-radius: 12px;
-  background: #fff;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
-}
-
-.stores-section {
-  margin-top: 0 !important; /* remove top gap from the whole section */
-  padding-top: 0 !important;
-}
-section + section {
-  margin-top: 40px !important; /* tighter spacing between sections */
-}
-
-
-
-
-
-
