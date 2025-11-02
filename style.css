@@ -536,5 +536,26 @@ section.content {
 footer {
   margin-top: 50px;
 }
+/* FINAL FIX – remove top space above shop cards */
+.hero-banner {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.content {
+  margin-top: 0 !important;
+  padding-top: 10px !important;
+}
+
+.content h2 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Make sure shop cards don’t add extra space */
+.shop-card:first-of-type {
+  margin-top: 10px !important;
+}
+
 
 
