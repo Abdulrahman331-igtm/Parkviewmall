@@ -349,6 +349,73 @@ footer {
     transform: translateY(0);
   }
 }
+/* Shop Cards */
+.shop-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.shop-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.shop-logo {
+  height: 28px;
+  margin-right: 10px;
+}
+
+.shop-card h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.shop-card h4 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.shop-card ul {
+  margin: 10px 0 15px 20px;
+}
+
+/* Background overlays (for each shop type) */
+.carrefour-bg::before,
+.joycutz-bg::before,
+.safaricom-bg::before,
+.thyme-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.carrefour-bg::before { background-image: url('images/carrefour_bg.png'); }
+.joycutz-bg::before { background-image: url('images/joycutz_bg.png'); }
+.safaricom-bg::before { background-image: url('images/safaricom_bg.png'); }
+.thyme-bg::before { background-image: url('images/thyme_bg.png'); }
+
+.shop-card * {
+  position: relative;
+  z-index: 1;
+}
+
 
 
 
