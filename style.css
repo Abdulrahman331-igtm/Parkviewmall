@@ -410,18 +410,14 @@ footer {
 .joycutz-bg::before { background-image: url('images/joycutz_bg.png'); }
 .safaricom-bg::before { background-image: url('images/safaricom_bg.png'); }
 .thyme-bg::before { background-image: url('images/Thyme_bg.png'); }
+.space-bg::before { background-image: url('images/space_bg.png'); }
 
 .shop-card * {
   position: relative;
   z-index: 1;
 }
 
-.space-bg {
-  background-image: url('images/space_bg.png');
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
+
 
 
 
