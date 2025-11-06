@@ -416,6 +416,15 @@ footer {
   z-index: 1;
 }
 
+.space-bg {
+  background-image: url('images/space_bg.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+
+
 
 
 
