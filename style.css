@@ -417,6 +417,74 @@ footer {
   z-index: 1;
 }
 
+/* Improved Shop Card Backgrounds (like SPACE Bistro) */
+.shop-card {
+  border-radius: 16px;
+  margin: 40px 0;
+  padding: 60px 40px;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.shop-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  opacity: 0.45;
+}
+
+.carrefour-bg::before {
+  background-image: url('images/carrefour_bg.png');
+}
+
+.joycutz-bg::before {
+  background-image: url('images/joycutz_bg.png');
+}
+
+.safaricom-bg::before {
+  background-image: url('images/safaricom_bg.png');
+}
+
+.thyme-bg::before {
+  background-image: url('images/Thyme_bg.png');
+}
+
+.space-bg::before {
+  background-image: url('images/space_bg.png');
+}
+
+/* Text content inside cards stays visible above overlay */
+.shop-card * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: make headers pop out more */
+.shop-card h3, 
+.shop-card h4 {
+  color: #fff;
+}
+
+.shop-card ul li,
+.shop-card p {
+  color: #f5f5f5;
+}
+
+
+
 
 
 
