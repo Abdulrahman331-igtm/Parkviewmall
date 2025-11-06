@@ -127,7 +127,7 @@ footer {
 
 /* Hero Banner */
 .hero-banner {
-  background-image: url('images/mall_side.png.png');
+  background-image: url('images/malls_insides.png');
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -492,6 +492,7 @@ footer {
 .shop-card p {
   color: #f5f5f5;
 }
+
 
 
 
